@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    enviroment {
+    environment {
         DOCKER_HUB_REPO = "keertthikumar517/gitops-project"
         DOCKER_HUB_CREDENTIALS_ID = "gitops-dockerhub-token"
     }
